@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Here is the Result:
-https://ibb.co/KGHVhDT
+<a href="https://ibb.co/KGHVhDT"><img src="https://i.ibb.co/7zFrCQs/2021-02-07-2.png" alt="2021-02-07-2" border="0" /></a>
 
 ## Available Scripts
 
