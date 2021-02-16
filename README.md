@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Here is the Result:
 <a href="https://ibb.co/KGHVhDT"><img src="https://i.ibb.co/7zFrCQs/2021-02-07-2.png" alt="2021-02-07-2" border="0" /></a>
 
-<a href="https://ibb.co/vm1PqsJ"><img src="https://i.ibb.co/P4xhjT5/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>image album hosting</a><br />
+<a href="https://ibb.co/vm1PqsJ"><img src="https://i.ibb.co/P4xhjT5/image.png" alt="image" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 
 ## Available Scripts
 
