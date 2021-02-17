@@ -1,15 +1,15 @@
 import firebase from 'firebase';
 
-const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyAA76Q2bcfh6SIfJqCvZ47bbrFER2SkDqk",
-    authDomain: "clone-aaf54.firebaseapp.com",
-    projectId: "clone-aaf54",
-    storageBucket: "clone-aaf54.appspot.com",
-    messagingSenderId: "722457398384",
-    appId: "1:722457398384:web:dd32e05fc2fb5bc48cb8b5",
-    measurementId: "G-92707NYNT1"
-});
-
+const firebaseConfig = {
+    apiKey: "AIzaSyDbmYFTTE-vOnb4yK7-XiEZJjCNVPkeadw",
+    authDomain: "clone-wasi.firebaseapp.com",
+    projectId: "clone-wasi",
+    storageBucket: "clone-wasi.appspot.com",
+    messagingSenderId: "248449181086",
+    appId: "1:248449181086:web:810efbef593fddfb89e28f",
+    measurementId: "G-QQXJ16QQ4Y"
+  };
+  firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
 export {auth};

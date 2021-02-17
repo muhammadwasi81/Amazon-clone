@@ -16,7 +16,7 @@ function Header() {
 }
 
   return (
-    <nav className="header container-fluid">
+    <nav className="header">
       <Link to="/">
         <img
           className="header__logo"
@@ -53,7 +53,7 @@ function Header() {
 
             <Link to="/checkout" className="header__link">
                  <div className="header__OptionBasket">
-                      <ShoppingBasketIcon />
+                  <ShoppingBasketIcon  />
                       <span className="header__OptionLineTwo  header__basketCount">{basket?.length}</span>
                  </div>
             </Link>

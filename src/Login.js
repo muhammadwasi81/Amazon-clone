@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { auth } from "./Firebase";
+import firebase from 'firebase';
 import "./Login.css";
 
 function Login() {
@@ -19,13 +20,26 @@ function Login() {
 
     const register = event => {
         event.preventDefault(); 
-
         auth.createUserWithEmailAndPassword(email, password)
         .then(auth => {
             history.push('/');
         })
         .catch(e => alert(e.message));   
     }
+
+
+    const googleSignIn = () => {
+      var provider = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithPopup(provider)
+  .then((result) => {
+    history.push('/');
+   console.log(result)
+  }).catch((error) => {
+     console.log(error);
+  });
+  
+ }
+
 
 
   return (
@@ -52,7 +66,11 @@ function Login() {
             By continuing, you agree to Amazon's{" "}
             <a href="">Conditions of Use </a>and <a href="">Privacy Notice.</a>
           </p>
-          <button onClick={register} className="login__registerButton">Create your Amzaon Account</button>
+
+          <p className="text-center mb-1">OR</p>
+          <button onClick={googleSignIn} className="googleButton">Sign in with Google</button>
+          
+          {/* <button onClick={register} className="login__registerButton">Create your Amazon Account</button> */}
       </div>
     </div>
   );

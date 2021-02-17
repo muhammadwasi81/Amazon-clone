@@ -21,6 +21,11 @@
 .header__basketCount {
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: 650;
+    font-size: 1.2rem;
+}
+.header__OptionBasket {
+    color: #f0c14b;
 }
 .header__nav {
      display: flex;
@@ -34,13 +39,19 @@
 }
 .header__optionLineOne {
     font-size: 10px;
+    color: #ffffff;
+}
+.header__optionLineOne:hover{
+    color: #f0c14b;
 }
 .header__optionLineTwo {
     font-size: 13px;
     font-weight: 800;
+    color: #ffffff;
 }
-
-
+.header__optionLineTwo:hover {
+    color: #f0c14b;
+}
 .header__link {
     color: #fff;
     text-decoration: none;
